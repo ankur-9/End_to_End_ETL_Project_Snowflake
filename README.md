@@ -13,6 +13,7 @@ Each JSON file represents a single match with detailed ball-by-ball data. The pr
 - Leverage Snowflake-native automation (Snowpipe, Streams, Tasks) for real-time ingestion.
 - Derive rich insights like player performance, match summaries, and powerplay analysis.
 
+
 🧩 Architecture Overview
 1. Data Source – Ball-by-ball cricket match JSONs from Cricsheet.org.
 2. Data Ingestion – Files uploaded to AWS S3 and integrated with Snowflake via External Stage.
@@ -28,12 +29,14 @@ Each JSON file represents a single match with detailed ball-by-ball data. The pr
     - Total matches, runs and wickets
     - Filtered on year, format and event
 
+
 🧠 Key Learnings
 - Handling semi-structured JSON data with VARIANT, FLATTEN, and LATERAL JOIN.
 - Designing incremental ETL logic with MERGE statements and surrogate keys.
 - Implementing fully automated data ingestion using Snowflake-native tools (no external ETL).
 - Building a clean dimensional model optimized for analytical queries.
 - Visualizing data directly in Snowflake dashboards for quick insights.
+
   
 🛠️ Tech Stack
 - Snowflake – Data warehouse, transformations, automation
@@ -44,3 +47,8 @@ Each JSON file represents a single match with detailed ball-by-ball data. The pr
   
 📸 Dashboard Preview
 <img width="3252" height="1718" alt="image" src="https://github.com/user-attachments/assets/470b85ff-d168-4b2b-842f-52e40be6ed96" />
+
+
+🙌 # Acknowledgements
+- Data Source: Cricsheet.org
+- Tools: Snowflake, AWS S3, SQL
