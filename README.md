@@ -1,7 +1,7 @@
 # End_to_End_ETL_Project_Snowflake
-Cricket Analytics
 
 🏏 Cricket Data ETL & Analytics on Snowflake
+
 📖 Project Overview
 This project demonstrates a complete end-to-end data engineering and analytics pipeline built on Snowflake, using real-world cricket match data from [Cricsheet.org](https://cricsheet.org/matches/).
 Each JSON file represents a single match with detailed ball-by-ball data. The project extracts, transforms, and loads this data into Snowflake, builds analytical fact and dimension tables, and visualizes match insights through a Snowflake dashboard.
