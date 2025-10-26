@@ -25,20 +25,22 @@ Each JSON file represents a single match with detailed ball-by-ball data. The pr
     - fact_match_innings
 6. Analytics Layer – Dashboard built within Snowflake showing:
     - Match outcomes and winning margins
-Player and team statistics
-Powerplay vs death overs comparison
-Runs, wickets, and dismissal breakdowns
+    - Total matches, runs and wickets
+    - Filtered on year, format and event
+
 🧠 Key Learnings
-Handling semi-structured JSON data with VARIANT, FLATTEN, and LATERAL JOIN.
-Designing incremental ETL logic with MERGE statements and surrogate keys.
-Implementing fully automated data ingestion using Snowflake-native tools (no external ETL).
-Building a clean dimensional model optimized for analytical queries.
-Visualizing data directly in Snowflake dashboards for quick insights.
+- Handling semi-structured JSON data with VARIANT, FLATTEN, and LATERAL JOIN.
+- Designing incremental ETL logic with MERGE statements and surrogate keys.
+- Implementing fully automated data ingestion using Snowflake-native tools (no external ETL).
+- Building a clean dimensional model optimized for analytical queries.
+- Visualizing data directly in Snowflake dashboards for quick insights.
+  
 🛠️ Tech Stack
-Snowflake – Data warehouse, transformations, automation
-AWS S3 – Data lake storage for raw JSON files
-Snowpipe, Streams, Tasks – Continuous ingestion and orchestration
-SQL / JSON Processing – Data modeling and transformation
-Snowflake Dashboards – Data visualization layer
+- Snowflake – Data warehouse, transformations, automation
+- AWS S3 – Data lake storage for raw JSON files
+- Snowpipe, Streams, Tasks – Continuous ingestion and orchestration
+- SQL / JSON Processing – Data modeling and transformation
+- Snowflake Dashboards – Data visualization layer
+  
 📸 Dashboard Preview
 <img width="3252" height="1718" alt="image" src="https://github.com/user-attachments/assets/470b85ff-d168-4b2b-842f-52e40be6ed96" />
