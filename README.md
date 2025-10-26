@@ -5,7 +5,7 @@
 📖 Project Overview
 
 This project demonstrates a complete end-to-end data engineering and analytics pipeline built on Snowflake, using real-world cricket match data from [Cricsheet.org](https://cricsheet.org/matches/).
-Each JSON file represents a single match with detailed ball-by-ball data. The project extracts, transforms, and loads this data into Snowflake, builds analytical fact and dimension tables, and visualizes match insights through a Snowflake dashboard.\
+Each JSON file represents a single match with detailed ball-by-ball data. The project extracts, transforms, and loads this data into Snowflake, builds analytical fact and dimension tables, and visualizes match insights through a Snowflake dashboard.  
 
 
 
@@ -13,7 +13,7 @@ Each JSON file represents a single match with detailed ball-by-ball data. The pr
 - Build an automated ETL pipeline in Snowflake for structured and semi-structured data.
 - Design a scalable data model for cricket analytics (dimensional schema).
 - Leverage Snowflake-native automation (Snowpipe, Streams, Tasks) for real-time ingestion.
-- Derive rich insights like player performance, match summaries, and powerplay analysis.\
+- Derive rich insights like player performance, match summaries, and powerplay analysis.  
 
 
 
@@ -30,7 +30,7 @@ Each JSON file represents a single match with detailed ball-by-ball data. The pr
 6. Analytics Layer – Dashboard built within Snowflake showing:
     - Match outcomes and winning margins
     - Total matches, runs and wickets
-    - Filtered on year, format and event\
+    - Filtered on year, format and event  
 
 
 
@@ -39,7 +39,7 @@ Each JSON file represents a single match with detailed ball-by-ball data. The pr
 - Designing incremental ETL logic with MERGE statements and surrogate keys.
 - Implementing fully automated data ingestion using Snowflake-native tools (no external ETL).
 - Building a clean dimensional model optimized for analytical queries.
-- Visualizing data directly in Snowflake dashboards for quick insights.\
+- Visualizing data directly in Snowflake dashboards for quick insights.  
 
 
   
@@ -48,7 +48,7 @@ Each JSON file represents a single match with detailed ball-by-ball data. The pr
 - AWS S3 – Data lake storage for raw JSON files
 - Snowpipe, Streams, Tasks – Continuous ingestion and orchestration
 - SQL / JSON Processing – Data modeling and transformation
-- Snowflake Dashboards – Data visualization layer
+- Snowflake Dashboards – Data visualization layer  
 
   
 📸 Dashboard Preview
